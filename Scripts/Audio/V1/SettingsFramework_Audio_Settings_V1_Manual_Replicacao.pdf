@@ -1,0 +1,310 @@
+%PDF-1.4
+%ASCII ReportLab Generated PDF document (opensource)    
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 10 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/Contents 11 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+6 0 obj
+<<
+/Contents 12 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 9 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+7 0 obj
+<<
+/PageMode /UseNone /Pages 9 0 R /Type /Catalog
+>>
+endobj
+8 0 obj
+<<
+/Author (Atlas - Ary - Sara) /Creator (SettingsFramework) /Producer (ReportLab PDF Library) /Title (SettingsFramework Audio Settings V1 Manual de Replicacao)
+>>
+endobj
+9 0 obj
+<<
+/Count 3 /Kids [ 4 0 R 5 0 R 6 0 R ] /Type /Pages
+>>
+endobj
+10 0 obj
+<<
+/Length 678
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 54.18898 762.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 18 Tf 22 TL 135.4488 0 Td (SETTINGS FRAMEWORK) Tj T* -135.4488 0 Td ET
+Q
+Q
+q
+1 0 0 1 54.18898 734.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (Audio Settings V1 - Manual Tecnico de Replicacao) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 686.8661 cm
+q
+BT 1 0 0 1 0 32.5 Tm 14 TL /F2 9.5 Tf 0 0 0 rg (Engine:) Tj /F1 9.5 Tf ( Unreal Engine 5.7.4) Tj  T* /F2 9.5 Tf (Status:) Tj /F1 9.5 Tf ( Concluido / Validado / Congelado) Tj  T* /F2 9.5 Tf (Autores:) Tj /F1 9.5 Tf ( Atlas - Especialista Unreal; Ary - Diretor & Desenvolvedor; Sara - Co-Diretora & Co-Criadora) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+11 0 obj
+<<
+/Length 4885
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 54.18898 765.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (1. Tipo de projeto e configuracao inicial) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 717.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32.5 Tm /F1 9.5 Tf 14 TL (Projeto de referencia: Games > Blank > Blueprint, Desktop, Maximum, Starter Content desativado. A) Tj T* (implementacao final inclui C++, portanto o projeto precisa possuir modulo C++ compilavel. Mapa de) Tj T* (desenvolvimento: Content/Dev/Testing/Maps/Lvl_SettingsTest.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 689.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (2. Dependencias obrigatorias) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 641.8661 cm
+q
+BT 1 0 0 1 0 32.5 Tm 14 TL /F1 9.5 Tf 0 0 0 rg (Plugin: ) Tj /F2 9.5 Tf (Audio Modulation) Tj /F1 9.5 Tf (. MetaSounds nao e requisito. Dependencias do SettingsFramework.Build.cs: Core,) Tj T* (CoreUObject, Engine, InputCore e AudioModulation. Toolchain validada: Visual Studio 2022 compativel com Unreal) Tj T* (Engine 5.7.4.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 613.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (3. Estrutura de conteudo) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 579.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18.5 Tm /F1 9.5 Tf 14 TL (Content/Framework/Audio: Classes; Config; Modulation/Buses. Content/Dev/Testing: Audio; Blueprints; Maps; UI.) Tj T* (Regra: Dev pode depender de Framework; Framework nao pode depender de Dev.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 551.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (4. Assets de audio) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 489.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 46.5 Tm /F1 9.5 Tf 14 TL (Sound Classes: SC_Master, SC_Music, SC_SFX, SC_Dialogue, SC_UI. SC_Master e raiz. Control Buses:) Tj T* (CB_Master, CB_Music, CB_SFX, CB_Dialogue, CB_UI. Parameter = Volume; Bypass off; Override Address off;) Tj T* (Generators vazio. Categorias usam CB_Master + bus especifico. SC_Master nao recebe bus diretamente.) Tj T* (CBM_UserSettings e pasta Mixes nao fazem parte da V1 final.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 461.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (5. Scripts preservados em Scripts/Audio/V1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 399.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 46.5 Tm /F1 9.5 Tf 14 TL (AudioSettingsConfig.h/.cpp - Data Asset de referencias aos buses. AudioSettingsDeveloperSettings.h/.cpp -) Tj T* (configuracao no Project Settings. SettingsFrameworkUserSettings.h/.cpp - persistencia.) Tj T* (AudioSettingsSubsystem.h/.cpp - runtime, preview, Apply, Cancel e API Blueprint. SettingsFramework.Build.cs -) Tj T* (dependencias do modulo. O codigo fica nos arquivos separados e nao e duplicado neste PDF.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 371.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (6. Data Asset e Project Settings) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 323.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32.5 Tm /F1 9.5 Tf 14 TL (Criar DA_AudioSettingsConfig em Content/Framework/Audio/Config e atribuir os cinco buses. Em Project Settings) Tj T* (> Game > Audio Settings, selecionar DA_AudioSettingsConfig. Em Project Settings > Engine > General Settings >) Tj T* (Default Classes, definir Game User Settings Class = SettingsFrameworkUserSettings.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 295.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (7. Persistencia e ciclo de vida) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 219.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 60.5 Tm /F1 9.5 Tf 14 TL (Volumes sao preferencias e usam UGameUserSettings, nao USaveGame. CurrentSettings = preview/runtime;) Tj T* (SavedSettings = ultimo estado confirmado. Initialize carrega os valores e registra World BeginPlay. A aplicacao nos) Tj T* (buses ocorre em World BeginPlay. Setters fazem Clamp 0..1, preview e sincronizam UserSettings em memoria.) Tj T* (Apply chama SaveSettings e atualiza SavedSettings. Cancel restaura SavedSettings, reaplica buses e sincroniza) Tj T* (memoria sem salvar. Fade validado: 0.1 s.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 191.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (8. API publica) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 157.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18.5 Tm /F1 9.5 Tf 14 TL (Set/Get Master, Music, SFX, Dialogue e UI; ApplyAudioSettings; CancelAudioSettings. Widgets devem consumir) Tj T* (apenas AudioSettingsSubsystem.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 129.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (9. Widget de regressao) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 67.86614 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 46.5 Tm /F1 9.5 Tf 14 TL (WBP_AudioSettingsTest em Content/Dev/Testing/UI. Sliders: SL_Master, SL_Music, SL_SFX, SL_Dialogue,) Tj T* (SL_UI. Textos: TXT_MasterValue, TXT_MusicValue, TXT_SFXValue, TXT_DialogueValue, TXT_UIValue. Botoes:) Tj T* (BTN_Apply e BTN_Cancel. Construct usa getters para preencher sliders; OnValueChanged chama setters; Apply) Tj T* (confirma; Cancel restaura e atualiza os sliders novamente.) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+12 0 obj
+<<
+/Length 1775
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 54.18898 765.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (10. Testes obrigatorios) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 731.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 18.5 Tm /F1 9.5 Tf 14 TL (Validar cinco setters/getters; Master + categorias; preview; Cancel; Apply; persistencia entre execucoes; startup;) Tj T* (troca de Level no mesmo GameInstance; WBP usando API publica; Reference Viewer sem Framework -> Dev.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 703.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (11. Ordem de reconstrucao) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 655.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32.5 Tm /F1 9.5 Tf 14 TL -0.068409 Tw (1\) UE 5.7.4 + Audio Modulation. 2\) Integrar scripts e compilar. 3\) Sound Classes. 4\) Control Buses. 5\) Moduladores.) Tj T* 0 Tw (6\) DA_AudioSettingsConfig. 7\) Project Settings. 8\) Game User Settings Class. 9\) Assets de teste em Dev. 10\)) Tj T* (WBP_AudioSettingsTest. 11\) Regressao. 12\) Reference Viewer.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 627.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 15 Tf 19 TL (12. Preservacao da V1) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 579.8661 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 32.5 Tm /F1 9.5 Tf 14 TL (V1 congelada. Alterar apenas por bug comprovado, necessidade real, limitacao confirmada ou mudanca relevante) Tj T* (da Engine. Para evolucoes, preservar V1 e criar nova versao. Limitacao aceita: sem AudioSettingsConfig, setters) Tj T* (retornam antes de atualizar estado pendente.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 54.18898 551.189 cm
+Q
+q
+1 0 0 1 54.18898 489.189 cm
+q
+BT 1 0 0 1 0 46.5 Tm 14 TL /F2 9.5 Tf 0 0 0 rg (Assinaturas) Tj /F1 9.5 Tf  T* (Atlas - Especialista Unreal) Tj  T* (Ary - Diretor & Desenvolvedor) Tj  T* (Sara - Co-Diretora & Co-Criadora) Tj T* ET
+Q
+Q
+ 
+endstream
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000525 00000 n 
+0000000729 00000 n 
+0000000933 00000 n 
+0000001001 00000 n 
+0000001281 00000 n 
+0000001352 00000 n 
+0000002081 00000 n 
+0000007018 00000 n 
+trailer
+<<
+/ID [<7b0fbdc95abff298d7d62a03706c0435><7b0fbdc95abff298d7d62a03706c0435>]
+/Info 8 0 R
+/Root 7 0 R
+/Size 13
+>>
+startxref
+8845
+%%EOF
